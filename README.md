@@ -24,4 +24,6 @@ Pełne opracowanie: https://adeodatus11.github.io/zawodowy-wroclaw/pracodawcy/op
 
 `npm run build:employers` odtwarza HTML przewodnika i opracowania oraz pakiet ZIP z materiałów w `pracodawcy/`. PDF i DOCX są kopiowane z `pracodawcy/publikacja/`. Po ich zmianie najpierw odtworzyć publikację i sprawdzić jej wygląd, następnie uruchomić budowanie WWW.
 
-Dział używa tej samej identyfikacji co strona projektu, sześciu etapów, przyklejonego spisu treści na komputerze, listy przygotowań i odsyłacza e-mail do konsultacji. Lista działa tylko na otwartej stronie, bez zapisywania danych i bez analityki. Pełne opracowanie zachowuje oznaczenia materiałów roboczych oraz pytań do dalszej weryfikacji.
+Dział ma osobną identyfikację „Ucz zawodu”: papierowe tło, czerń, żółty akcent, Barlow Condensed i DM Sans. Samodzielne style i skrypt są w `pracodawcy/assets/`. Przewodnik obejmuje pięć rozwijanych rozdziałów, szósty etap z konsultacją, listę przygotowań i odsyłacz e-mail. Lista działa tylko na otwartej stronie, bez zapisywania danych i bez analityki. Pełne opracowanie zachowuje oznaczenia materiałów roboczych oraz pytań do dalszej weryfikacji.
+
+Przebudowa według skillu https://github.com/dobromirdikov/codex-frontend-design-skill/blob/main/skills/frontend-design/SKILL.md. Nowa ilustracja mentor–uczeń jest wygenerowana w ImageGen; szczegóły i prompt: `projekt/strona-pracodawcy.md` w repozytorium źródłowym. Fonty lokalne Google Fonts na SIL OFL, teksty licencji w `pracodawcy/assets/LICENSE-Barlow.txt` oraz `LICENSE-DMSans.txt`.
