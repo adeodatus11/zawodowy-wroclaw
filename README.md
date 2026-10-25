@@ -16,3 +16,12 @@ W prywatnym repozytorium źródłowym pliki strony znajdują się w `site/`. Po 
 
 Font Manrope: Google Fonts, SIL Open Font License; tekst licencji w `assets/FONT-LICENSE.txt`.
 Ilustracja warsztatu: wygenerowana narzędziem OpenAI Image Generation; nie przedstawia rzeczywistego uczestnika projektu.
+
+## Dział dla pracodawców
+
+Przewodnik: https://adeodatus11.github.io/zawodowy-wroclaw/pracodawcy/
+Pełne opracowanie: https://adeodatus11.github.io/zawodowy-wroclaw/pracodawcy/opracowanie.html
+
+`npm run build:employers` odtwarza HTML przewodnika i opracowania oraz pakiet ZIP z materiałów w `pracodawcy/`. PDF i DOCX są kopiowane z `pracodawcy/publikacja/`. Po ich zmianie najpierw odtworzyć publikację i sprawdzić jej wygląd, następnie uruchomić budowanie WWW.
+
+Dział używa tej samej identyfikacji co strona projektu, sześciu etapów, przyklejonego spisu treści na komputerze, listy przygotowań i odsyłacza e-mail do konsultacji. Lista działa tylko na otwartej stronie, bez zapisywania danych i bez analityki. Pełne opracowanie zachowuje oznaczenia materiałów roboczych oraz pytań do dalszej weryfikacji.
